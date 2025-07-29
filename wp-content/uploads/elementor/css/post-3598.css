@@ -1,0 +1,104 @@
+.elementor-3598 .elementor-element.elementor-element-635ff09a {
+    padding: 75px 0px 100px 0px;
+}
+
+.elementor-3598 .elementor-element.elementor-element-10e91353>.elementor-element-populated {
+    padding: 50px 75px 50px 75px;
+}
+
+.elementor-widget-image .widget-image-caption {
+    color: var( --e-global-color-text);
+    font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-text-font-weight);
+}
+
+.elementor-3598 .elementor-element.elementor-element-6ad77216 img {
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#elementor-popup-modal-3598 .dialog-widget-content {
+    animation-duration: 1.1s;
+    background-color: #14131300;
+}
+
+#elementor-popup-modal-3598 {
+    background-color: #202020CC;
+    justify-content: center;
+    align-items: center;
+    pointer-events: all;
+}
+
+#elementor-popup-modal-3598 .dialog-message {
+    width: 640px;
+    height: auto;
+}
+
+#elementor-popup-modal-3598 .dialog-close-button {
+    display: flex;
+    background-color: #D5A7A700;
+}
+
+#elementor-popup-modal-3598 .dialog-close-button i {
+    color: #FFFFFF;
+}
+
+#elementor-popup-modal-3598 .dialog-close-button svg {
+    fill: #FFFFFF;
+}
+
+@media(max-width:1024px) {
+    .elementor-3598 .elementor-element.elementor-element-635ff09a {
+        padding: 15px 15px 15px 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-3598 .elementor-element.elementor-element-635ff09a {
+        padding: 0px 0px 0px 0px;
+    }
+    .elementor-3598 .elementor-element.elementor-element-10e91353 {
+        width: 100%;
+    }
+    .elementor-3598 .elementor-element.elementor-element-10e91353>.elementor-element-populated,
+    .elementor-3598 .elementor-element.elementor-element-10e91353>.elementor-element-populated>.elementor-background-overlay,
+    .elementor-3598 .elementor-element.elementor-element-10e91353>.elementor-background-slideshow {
+        border-radius: 0px 0px 0px 0px;
+    }
+    .elementor-3598 .elementor-element.elementor-element-10e91353>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        --e-column-margin-right: 0px;
+        --e-column-margin-left: 0px;
+        padding: 00px 00px 00px 00px;
+    }
+    .elementor-3598 .elementor-element.elementor-element-6ad77216>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        border-radius: 30px 30px 30px 30px;
+    }
+    .elementor-3598 .elementor-element.elementor-element-6ad77216 img {
+        width: 100%;
+        max-width: 100%;
+    }
+    #elementor-popup-modal-3598 .dialog-message {
+        width: 1000px;
+        padding: 50px 50px 50px 50px;
+    }
+    #elementor-popup-modal-3598 {
+        justify-content: center;
+        align-items: center;
+    }
+    #elementor-popup-modal-3598 .dialog-widget-content {
+        border-radius: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+    #elementor-popup-modal-3598 .dialog-close-button {
+        top: 5%;
+    }
+    body:not(.rtl) #elementor-popup-modal-3598 .dialog-close-button {
+        right: 12%;
+    }
+    body.rtl #elementor-popup-modal-3598 .dialog-close-button {
+        left: 12%;
+    }
+}

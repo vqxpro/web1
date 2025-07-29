@@ -1,0 +1,1356 @@
+@font-face {
+    font-family: "wdp";
+    src: url("../font/font.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block
+}
+
+@font-face {
+    font-family: "wdp";
+    src: url("../font/font-v2.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block
+}
+
+[class^=wdp-icons-],
+[class*=" wdp-icons-"] {
+    font-family: "wdp" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.wdp-icons-privacy:before {
+    content: "ï¤€"
+}
+
+.wdp-icons-laptop:before {
+    content: "ï¤"
+}
+
+.wdp-icons-desktop:before {
+    content: "ï¤‚"
+}
+
+.wdp-icons-tablet:before {
+    content: "ï¤ƒ"
+}
+
+.wdp-icons-mobile:before {
+    content: "ï¤„"
+}
+
+.wdp-icons-map-pin:before {
+    content: "ï¤…"
+}
+
+.wdp-icons-api:before {
+    content: "ï¤†"
+}
+
+.wdp-icons-align-center:before {
+    content: "ï¤‡"
+}
+
+.wdp-icons-align-justify:before {
+    content: "ï¤ˆ"
+}
+
+.wdp-icons-align-left:before {
+    content: "ï¤‰"
+}
+
+.wdp-icons-align-right:before {
+    content: "ï¤"
+}
+
+.wdp-icons-receipt-percent:before {
+    content: "ï¤‘"
+}
+
+.wdp-icons-credit-card:before {
+    content: "ï¤’"
+}
+
+.wdp-icons-change:before {
+    content: "ï¤“"
+}
+
+.wdp-icons-tag:before {
+    content: "ï¤”"
+}
+
+.wdp-icons-subscription:before {
+    content: "ï¤•"
+}
+
+.wdp-icons-mark-light:before {
+    content: "ï¤–"
+}
+
+.wdp-icons-brand-x-twitter:before {
+    content: "ï¤—"
+}
+
+.wdp-icons-brand-buddypress:before {
+    content: "î§ "
+}
+
+.wdp-icons-brand-google-meet:before {
+    content: "î¨¸"
+}
+
+.wdp-icons-brand-google-calendar:before {
+    content: "î¨¹"
+}
+
+.wdp-icons-ban:before {
+    content: "î¨»"
+}
+
+.wdp-icons-brand-woocommerce:before {
+    content: "î¨¼"
+}
+
+.wdp-icons-kebab-menu:before {
+    content: "î¤€"
+}
+
+.wdp-icons-add:before {
+    content: "î¤"
+}
+
+.wdp-icons-add-photo:before {
+    content: "î¤‚"
+}
+
+.wdp-icons-file-artboard:before {
+    content: "î¤ƒ"
+}
+
+.wdp-icons-calender:before {
+    content: "î¤„"
+}
+
+.wdp-icons-circle-mark:before {
+    content: "î¤…"
+}
+
+.wdp-icons-certificate-portrait:before {
+    content: "î¤†"
+}
+
+.wdp-icons-brand-zoom:before {
+    content: "î¤‡"
+}
+
+.wdp-icons-clipboard:before {
+    content: "î¤ˆ"
+}
+
+.wdp-icons-code:before {
+    content: "î¤‰"
+}
+
+.wdp-icons-conversation:before {
+    content: "î¤Š"
+}
+
+.wdp-icons-trophy-o:before {
+    content: "î¤‹"
+}
+
+.wdp-icons-file-blank-page:before {
+    content: "î¤Œ"
+}
+
+.wdp-icons-download:before {
+    content: "î¤"
+}
+
+.wdp-icons-drag:before {
+    content: "î¤Ž"
+}
+
+.wdp-icons-emoji:before {
+    content: "î¤"
+}
+
+.wdp-icons-file-import:before {
+    content: "î¤"
+}
+
+.wdp-icons-gallery:before {
+    content: "î¤‘"
+}
+
+.wdp-icons-trash-can:before {
+    content: "î¤’"
+}
+
+.wdp-icons-spectacles:before {
+    content: "î¤“"
+}
+
+.wdp-icons-graduate-student:before {
+    content: "î¤”"
+}
+
+.wdp-icons-grid-o:before {
+    content: "î¤•"
+}
+
+.wdp-icons-user-group:before {
+    content: "î¤–"
+}
+
+.wdp-icons-home-o:before {
+    content: "î¤—"
+}
+
+.wdp-icons-down:before {
+    content: "î¤˜"
+}
+
+.wdp-icons-left:before {
+    content: "î¤™"
+}
+
+.wdp-icons-right:before {
+    content: "î¤š"
+}
+
+.wdp-icons-up:before {
+    content: "î¤›"
+}
+
+.wdp-icons-interactive:before {
+    content: "î¤œ"
+}
+
+.wdp-icons-level:before {
+    content: "î¤"
+}
+
+.wdp-icons-times:before {
+    content: "î¤ž"
+}
+
+.wdp-icons-magnifying-glass:before {
+    content: "î¤Ÿ"
+}
+
+.wdp-icons-hamburger-o:before {
+    content: "î¤ "
+}
+
+.wdp-icons-mortarboard-o:before {
+    content: "î¤¡"
+}
+
+.wdp-icons-next:before {
+    content: "î¤¢"
+}
+
+.wdp-icons-badge-percent:before {
+    content: "î¤£"
+}
+
+.wdp-icons-book-open-o:before {
+    content: "î¤¤"
+}
+
+.wdp-icons-pencil:before {
+    content: "î¤¥"
+}
+
+.wdp-icons-previous:before {
+    content: "î¤¦"
+}
+
+.wdp-icons-user-professor:before {
+    content: "î¤§"
+}
+
+.wdp-icons-qa:before {
+    content: "î¤¨"
+}
+
+.wdp-icons-receipt-line:before {
+    content: "î¤©"
+}
+
+.wdp-icons-refund-o:before {
+    content: "î¤ª"
+}
+
+.wdp-icons-page-review:before {
+    content: "î¤«"
+}
+
+.wdp-icons-save-line:before {
+    content: "î¤¬"
+}
+
+.wdp-icons-page-search:before {
+    content: "î¤­"
+}
+
+.wdp-icons-share-nodes:before {
+    content: "î¤®"
+}
+
+.wdp-icons-spinner:before {
+    content: "î¤¯"
+}
+
+.wdp-icons-mortarboard:before {
+    content: "î¤°"
+}
+
+.wdp-icons-user-student:before {
+    content: "î¤±"
+}
+
+.wdp-icons-badge-percent-o:before {
+    content: "î¤²"
+}
+
+.wdp-icons-money-bag:before {
+    content: "î¤³"
+}
+
+.wdp-icons-badge-star:before {
+    content: "î¤´"
+}
+
+.wdp-icons-update:before {
+    content: "î¤µ"
+}
+
+.wdp-icons-upload-file:before {
+    content: "î¤¶"
+}
+
+.wdp-icons-upload-o:before {
+    content: "î¤·"
+}
+
+.wdp-icons-upload:before {
+    content: "î¤¸"
+}
+
+.wdp-icons-add-group:before {
+    content: "î¤¹"
+}
+
+.wdp-icons-add-image:before {
+    content: "î¤º"
+}
+
+.wdp-icons-add-member:before {
+    content: "î¤»"
+}
+
+.wdp-icons-angle-double-left:before {
+    content: "î¤¼"
+}
+
+.wdp-icons-angle-double-right:before {
+    content: "î¤½"
+}
+
+.wdp-icons-angle-down:before {
+    content: "î¤¾"
+}
+
+.wdp-icons-angle-left:before {
+    content: "î¤¿"
+}
+
+.wdp-icons-angle-right:before {
+    content: "î¥€"
+}
+
+.wdp-icons-angle-up:before {
+    content: "î¥"
+}
+
+.wdp-icons-ruler:before {
+    content: "î¥‚"
+}
+
+.wdp-icons-assignment:before {
+    content: "î¥ƒ"
+}
+
+.wdp-icons-paperclip:before {
+    content: "î¥„"
+}
+
+.wdp-icons-volume:before {
+    content: "î¥…"
+}
+
+.wdp-icons-authorized:before {
+    content: "î¥†"
+}
+
+.wdp-icons-trophy:before {
+    content: "î¥‡"
+}
+
+.wdp-icons-background:before {
+    content: "î¥ˆ"
+}
+
+.wdp-icons-book-open:before {
+    content: "î¥‰"
+}
+
+.wdp-icons-book:before {
+    content: "î¥Š"
+}
+
+.wdp-icons-box-open:before {
+    content: "î¥‹"
+}
+
+.wdp-icons-browser:before {
+    content: "î¥Œ"
+}
+
+.wdp-icons-bullet-point:before {
+    content: "î¥"
+}
+
+.wdp-icons-calender-bold:before {
+    content: "î¥Ž"
+}
+
+.wdp-icons-calender-line:before {
+    content: "î¥"
+}
+
+.wdp-icons-camera:before {
+    content: "î¥"
+}
+
+.wdp-icons-cart-bold:before {
+    content: "î¥‘"
+}
+
+.wdp-icons-cart-line:before {
+    content: "î¥’"
+}
+
+.wdp-icons-ribbon:before {
+    content: "î¥“"
+}
+
+.wdp-icons-certificate-landscape:before {
+    content: "î¥”"
+}
+
+.wdp-icons-slider-horizontal:before {
+    content: "î¥•"
+}
+
+.wdp-icons-chart-pie:before {
+    content: "î¥–"
+}
+
+.wdp-icons-circle-info:before {
+    content: "î¥—"
+}
+
+.wdp-icons-clock-bold:before {
+    content: "î¥˜"
+}
+
+.wdp-icons-clock-line:before {
+    content: "î¥™"
+}
+
+.wdp-icons-coding:before {
+    content: "î¥š"
+}
+
+.wdp-icons-coins:before {
+    content: "î¥›"
+}
+
+.wdp-icons-mortarboard-o:before {
+    content: "î¥œ"
+}
+
+.wdp-icons-comment:before {
+    content: "î¥"
+}
+
+.wdp-icons-buildings:before {
+    content: "î¥ž"
+}
+
+.wdp-icons-clock-line-o:before {
+    content: "î¥Ÿ"
+}
+
+.wdp-icons-copy:before {
+    content: "î¥ "
+}
+
+.wdp-icons-export:before {
+    content: "î¥¡"
+}
+
+.wdp-icons-import:before {
+    content: "î¥¢"
+}
+
+.wdp-icons-brand-learndash:before {
+    content: "î¥£"
+}
+
+.wdp-icons-brand-learnpress:before {
+    content: "î¥¤"
+}
+
+.wdp-icons-circle-times-line:before {
+    content: "î¥¥"
+}
+
+.wdp-icons-circle-times-bold:before {
+    content: "î¥¦"
+}
+
+.wdp-icons-times-o:before {
+    content: "î¥§"
+}
+
+.wdp-icons-crown:before {
+    content: "î¥¨"
+}
+
+.wdp-icons-slider-vertical:before {
+    content: "î¥©"
+}
+
+.wdp-icons-dashboard:before {
+    content: "î¥ª"
+}
+
+.wdp-icons-trash-can-bold:before {
+    content: "î¥«"
+}
+
+.wdp-icons-trash-can-line:before {
+    content: "î¥¬"
+}
+
+.wdp-icons-color-palette:before {
+    content: "î¥­"
+}
+
+.wdp-icons-external-link:before {
+    content: "î¥®"
+}
+
+.wdp-icons-badge-discount:before {
+    content: "î¥¯"
+}
+
+.wdp-icons-badge-dollar:before {
+    content: "î¥°"
+}
+
+.wdp-icons-text-add:before {
+    content: "î¥±"
+}
+
+.wdp-icons-document-text:before {
+    content: "î¥²"
+}
+
+.wdp-icons-dollar-slot:before {
+    content: "î¥³"
+}
+
+.wdp-icons-door-open:before {
+    content: "î¥´"
+}
+
+.wdp-icons-caret-up:before {
+    content: "î¥µ"
+}
+
+.wdp-icons-download-bold:before {
+    content: "î¥¶"
+}
+
+.wdp-icons-sort:before {
+    content: "î¥·"
+}
+
+.wdp-icons-drop:before {
+    content: "î¥¸"
+}
+
+.wdp-icons-hourglass-o:before {
+    content: "î¥¹"
+}
+
+.wdp-icons-earth:before {
+    content: "î¥º"
+}
+
+.wdp-icons-pencil-o:before {
+    content: "î¥»"
+}
+
+.wdp-icons-edit:before {
+    content: "î¥¼"
+}
+
+.wdp-icons-edit-o:before {
+    content: "î¥½"
+}
+
+.wdp-icons-edit-square:before {
+    content: "î¥¾"
+}
+
+.wdp-icons-open-book-o:before {
+    content: "î¥¿"
+}
+
+.wdp-icons-envelope:before {
+    content: "î¦€"
+}
+
+.wdp-icons-time-expired:before {
+    content: "î¦"
+}
+
+.wdp-icons-eye-bold:before {
+    content: "î¦‚"
+}
+
+.wdp-icons-eye-line:before {
+    content: "î¦ƒ"
+}
+
+.wdp-icons-bookmark-bold:before {
+    content: "î¦„"
+}
+
+.wdp-icons-bookmark-line:before {
+    content: "î¦…"
+}
+
+.wdp-icons-hourglass:before {
+    content: "î¦†"
+}
+
+.wdp-icons-filter-dollar:before {
+    content: "î¦‡"
+}
+
+.wdp-icons-filter:before {
+    content: "î¦ˆ"
+}
+
+.wdp-icons-folder:before {
+    content: "î¦‰"
+}
+
+.wdp-icons-grade:before {
+    content: "î¦Š"
+}
+
+.wdp-icons-grade-book:before {
+    content: "î¦‹"
+}
+
+.wdp-icons-grid-bold:before {
+    content: "î¦Œ"
+}
+
+.wdp-icons-grid-line:before {
+    content: "î¦"
+}
+
+.wdp-icons-hand-holding-dollar:before {
+    content: "î¦Ž"
+}
+
+.wdp-icons-heart-bold:before {
+    content: "î¦"
+}
+
+.wdp-icons-home:before {
+    content: "î¦"
+}
+
+.wdp-icons-hamburger-menu:before {
+    content: "î¦‘"
+}
+
+.wdp-icons-light-bulb:before {
+    content: "î¦’"
+}
+
+.wdp-icons-image-landscape:before {
+    content: "î¦“"
+}
+
+.wdp-icons-images:before {
+    content: "î¦”"
+}
+
+.wdp-icons-image-portrait:before {
+    content: "î¦•"
+}
+
+.wdp-icons-add-image-o:before {
+    content: "î¦–"
+}
+
+.wdp-icons-import-export:before {
+    content: "î¦—"
+}
+
+.wdp-icons-import-o:before {
+    content: "î¦˜"
+}
+
+.wdp-icons-flag:before {
+    content: "î¦™"
+}
+
+.wdp-icons-circle-info-o:before {
+    content: "î¦š"
+}
+
+.wdp-icons-ribbon-o:before {
+    content: "î¦›"
+}
+
+.wdp-icons-instructor:before {
+    content: "î¦œ"
+}
+
+.wdp-icons-copy-text:before {
+    content: "î¦"
+}
+
+.wdp-icons-eye-slash-line:before {
+    content: "î¦ž"
+}
+
+.wdp-icons-certificate-landscape-o:before {
+    content: "î¦Ÿ"
+}
+
+.wdp-icons-layer:before {
+    content: "î¦ "
+}
+
+.wdp-icons-link:before {
+    content: "î¦¡"
+}
+
+.wdp-icons-clipboard-list:before {
+    content: "î¦¢"
+}
+
+.wdp-icons-lock-bold:before {
+    content: "î¦£"
+}
+
+.wdp-icons-lock-line:before {
+    content: "î¦¤"
+}
+
+.wdp-icons-user-bold:before {
+    content: "î¦¥"
+}
+
+.wdp-icons-manual:before {
+    content: "î¦¦"
+}
+
+.wdp-icons-circle-mark-o:before {
+    content: "î¦§"
+}
+
+.wdp-icons-mark:before {
+    content: "î¦¨"
+}
+
+.wdp-icons-mark-unread:before {
+    content: "î¦©"
+}
+
+.wdp-icons-file-star:before {
+    content: "î¦ª"
+}
+
+.wdp-icons-file-text:before {
+    content: "î¦«"
+}
+
+.wdp-icons-arrow-right-left:before {
+    content: "î¦¬"
+}
+
+.wdp-icons-media-manager:before {
+    content: "î¦­"
+}
+
+.wdp-icons-meeting:before {
+    content: "î¦®"
+}
+
+.wdp-icons-microphone:before {
+    content: "î¦¯"
+}
+
+.wdp-icons-minus:before {
+    content: "î¦°"
+}
+
+.wdp-icons-minus-o:before {
+    content: "î¦±"
+}
+
+.wdp-icons-refund:before {
+    content: "î¦²"
+}
+
+.wdp-icons-move:before {
+    content: "î¦³"
+}
+
+.wdp-icons-slider-h:before {
+    content: "î¦´"
+}
+
+.wdp-icons-slider-v:before {
+    content: "î¦µ"
+}
+
+.wdp-icons-archive:before {
+    content: "î¦¶"
+}
+
+.wdp-icons-important-bold:before {
+    content: "î¦·"
+}
+
+.wdp-icons-important-line:before {
+    content: "î¦¸"
+}
+
+.wdp-icons-open-envelope:before {
+    content: "î¦¹"
+}
+
+.wdp-icons-message-unread:before {
+    content: "î¦º"
+}
+
+.wdp-icons-double-mark:before {
+    content: "î¦»"
+}
+
+.wdp-icons-bell-bold:before {
+    content: "î¦¼"
+}
+
+.wdp-icons-bell-line:before {
+    content: "î¦½"
+}
+
+.wdp-icons-text-width:before {
+    content: "î¦¾"
+}
+
+.wdp-icons-order-down:before {
+    content: "î¦¿"
+}
+
+.wdp-icons-order-up:before {
+    content: "î§€"
+}
+
+.wdp-icons-ordering-a-z:before {
+    content: "î§"
+}
+
+.wdp-icons-ordering-z-a:before {
+    content: "î§‚"
+}
+
+.wdp-icons-paste:before {
+    content: "î§ƒ"
+}
+
+.wdp-icons-play-line:before {
+    content: "î§„"
+}
+
+.wdp-icons-plus-o:before {
+    content: "î§…"
+}
+
+.wdp-icons-plus:before {
+    content: "î§†"
+}
+
+.wdp-icons-plus-square:before {
+    content: "î§‡"
+}
+
+.wdp-icons-eye-slash-bold:before {
+    content: "î§ˆ"
+}
+
+.wdp-icons-print:before {
+    content: "î§‰"
+}
+
+.wdp-icons-purchase-mark:before {
+    content: "î§Š"
+}
+
+.wdp-icons-puzzle:before {
+    content: "î§‹"
+}
+
+.wdp-icons-qr-code:before {
+    content: "î§Œ"
+}
+
+.wdp-icons-question:before {
+    content: "î§"
+}
+
+.wdp-icons-circle-question-mark:before {
+    content: "î§Ž"
+}
+
+.wdp-icons-quiz:before {
+    content: "î§"
+}
+
+.wdp-icons-quiz-attempt:before {
+    content: "î§"
+}
+
+.wdp-icons-quiz-o:before {
+    content: "î§‘"
+}
+
+.wdp-icons-receipt-bold:before {
+    content: "î§’"
+}
+
+.wdp-icons-redo:before {
+    content: "î§“"
+}
+
+.wdp-icons-refresh:before {
+    content: "î§”"
+}
+
+.wdp-icons-refresh-o:before {
+    content: "î§•"
+}
+
+.wdp-icons-report-time:before {
+    content: "î§–"
+}
+
+.wdp-icons-save-bold:before {
+    content: "î§—"
+}
+
+.wdp-icons-search:before {
+    content: "î§˜"
+}
+
+.wdp-icons-paper-plane:before {
+    content: "î§™"
+}
+
+.wdp-icons-gear:before {
+    content: "î§š"
+}
+
+.wdp-icons-shape:before {
+    content: "î§›"
+}
+
+.wdp-icons-share:before {
+    content: "î§œ"
+}
+
+.wdp-icons-minimize:before {
+    content: "î§"
+}
+
+.wdp-icons-shorting-bullet:before {
+    content: "î§ž"
+}
+
+.wdp-icons-circle-notch:before {
+    content: "î§Ÿ"
+}
+
+.wdp-icons-signout:before {
+    content: "î§¡"
+}
+
+.wdp-icons-rocket:before {
+    content: "î§¢"
+}
+
+.wdp-icons-bullhorn:before {
+    content: "î§£"
+}
+
+.wdp-icons-star-bold:before {
+    content: "î§¤"
+}
+
+.wdp-icons-star-half-bold:before {
+    content: "î§¥"
+}
+
+.wdp-icons-star-line:before {
+    content: "î§¦"
+}
+
+.wdp-icons-stopwatch:before {
+    content: "î§§"
+}
+
+.wdp-icons-brush:before {
+    content: "î§¨"
+}
+
+.wdp-icons-circle-mark-line:before {
+    content: "î§©"
+}
+
+.wdp-icons-undo:before {
+    content: "î§ª"
+}
+
+.wdp-icons-university:before {
+    content: "î§«"
+}
+
+.wdp-icons-unlock-line:before {
+    content: "î§¬"
+}
+
+.wdp-icons-caret-down:before {
+    content: "î§­"
+}
+
+.wdp-icons-user-line:before {
+    content: "î§®"
+}
+
+.wdp-icons-user-graduate:before {
+    content: "î§¯"
+}
+
+.wdp-icons-verify-id:before {
+    content: "î§°"
+}
+
+.wdp-icons-video-camera:before {
+    content: "î§±"
+}
+
+.wdp-icons-video-camera-o:before {
+    content: "î§²"
+}
+
+.wdp-icons-wallet:before {
+    content: "î§³"
+}
+
+.wdp-icons-brand-facebook:before {
+    content: "î§´"
+}
+
+.wdp-icons-brand-zoom-o:before {
+    content: "î§µ"
+}
+
+.wdp-icons-circle-warning-outline:before {
+    content: "î§¶"
+}
+
+.wdp-icons-website:before {
+    content: "î§·"
+}
+
+.wdp-icons-circle-half:before {
+    content: "î§¸"
+}
+
+.wdp-icons-zoom-in:before {
+    content: "î§¹"
+}
+
+.wdp-icons-zoom-out:before {
+    content: "î§º"
+}
+
+.wdp-icons-brand-github:before {
+    content: "î§»"
+}
+
+.wdp-icons-brand-google:before {
+    content: "î§¼"
+}
+
+.wdp-icons-brand-google-drive:before {
+    content: "î§½"
+}
+
+.wdp-icons-brand-html5-bold:before {
+    content: "î§¾"
+}
+
+.wdp-icons-brand-html5-line:before {
+    content: "î§¿"
+}
+
+.wdp-icons-brand-instagram:before {
+    content: "î¨€"
+}
+
+.wdp-icons-brand-linkedin:before {
+    content: "î¨"
+}
+
+.wdp-icons-brand-myspace:before {
+    content: "î¨‚"
+}
+
+.wdp-icons-brand-paid-membersip-pro:before {
+    content: "î¨ƒ"
+}
+
+.wdp-icons-brand-reddit:before {
+    content: "î¨„"
+}
+
+.wdp-icons-brand-skype:before {
+    content: "î¨…"
+}
+
+.wdp-icons-brand-snapchat:before {
+    content: "î¨†"
+}
+
+.wdp-icons-brand-soundcloud:before {
+    content: "î¨‡"
+}
+
+.wdp-icons-brand-spotify:before {
+    content: "î¨ˆ"
+}
+
+.wdp-icons-brand-tumblr:before {
+    content: "î¨‰"
+}
+
+.wdp-icons-brand-twitter:before {
+    content: "î¨Š"
+}
+
+.wdp-icons-brand-vimeo-bold:before {
+    content: "î¨‹"
+}
+
+.wdp-icons-brand-vimeo-line:before {
+    content: "î¨Œ"
+}
+
+.wdp-icons-brand-yelp:before {
+    content: "î¨"
+}
+
+.wdp-icons-brand-youtube-bold:before {
+    content: "î¨Ž"
+}
+
+.wdp-icons-brand-youtube-line:before {
+    content: "î¨"
+}
+
+.wdp-icons-grade-o:before {
+    content: "î¨"
+}
+
+.wdp-icons-file-ai:before {
+    content: "î¨‘"
+}
+
+.wdp-icons-file-archive:before {
+    content: "î¨’"
+}
+
+.wdp-icons-file-audio:before {
+    content: "î¨“"
+}
+
+.wdp-icons-file-avi:before {
+    content: "î¨”"
+}
+
+.wdp-icons-file-compress:before {
+    content: "î¨•"
+}
+
+.wdp-icons-file-css:before {
+    content: "î¨–"
+}
+
+.wdp-icons-file-csv:before {
+    content: "î¨—"
+}
+
+.wdp-icons-file-dbf:before {
+    content: "î¨˜"
+}
+
+.wdp-icons-file-doc:before {
+    content: "î¨™"
+}
+
+.wdp-icons-file-document:before {
+    content: "î¨š"
+}
+
+.wdp-icons-file-dwg:before {
+    content: "î¨›"
+}
+
+.wdp-icons-file-exe:before {
+    content: "î¨œ"
+}
+
+.wdp-icons-file-fla:before {
+    content: "î¨"
+}
+
+.wdp-icons-file-html:before {
+    content: "î¨ž"
+}
+
+.wdp-icons-image-file:before {
+    content: "î¨Ÿ"
+}
+
+.wdp-icons-file-iso:before {
+    content: "î¨ "
+}
+
+.wdp-icons-file-json:before {
+    content: "î¨¡"
+}
+
+.wdp-icons-file-js:before {
+    content: "î¨¢"
+}
+
+.wdp-icons-file-jpg:before {
+    content: "î¨£"
+}
+
+.wdp-icons-file-mp3:before {
+    content: "î¨¤"
+}
+
+.wdp-icons-file-mp4:before {
+    content: "î¨¥"
+}
+
+.wdp-icons-file-pdf:before {
+    content: "î¨¦"
+}
+
+.wdp-icons-file-png:before {
+    content: "î¨§"
+}
+
+.wdp-icons-file-ppt:before {
+    content: "î¨¨"
+}
+
+.wdp-icons-file-psd:before {
+    content: "î¨©"
+}
+
+.wdp-icons-file-rtf:before {
+    content: "î¨ª"
+}
+
+.wdp-icons-file-spreadsheet:before {
+    content: "î¨«"
+}
+
+.wdp-icons-file-svg:before {
+    content: "î¨¬"
+}
+
+.wdp-icons-text-file:before {
+    content: "î¨­"
+}
+
+.wdp-icons-file-txt:before {
+    content: "î¨®"
+}
+
+.wdp-icons-video-file:before {
+    content: "î¨¯"
+}
+
+.wdp-icons-file-xls:before {
+    content: "î¨°"
+}
+
+.wdp-icons-file-xml:before {
+    content: "î¨±"
+}
+
+.wdp-icons-file-zip:before {
+    content: "î¨²"
+}
+
+.wdp-icons-circle-info-bold:before {
+    content: "î¨³"
+}
+
+.wdp-icons-warning:before {
+    content: "î¨¶"
+}
+
+.wdp-icons-shortcode:before {
+    content: "î¨·"
+}
